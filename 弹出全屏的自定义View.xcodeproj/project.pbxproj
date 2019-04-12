@@ -13,6 +13,9 @@
 		04EF4B44204FC84300165762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EF4B43204FC84300165762 /* Assets.xcassets */; };
 		04EF4B47204FC84300165762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF4B45204FC84300165762 /* LaunchScreen.storyboard */; };
 		04EF4B4A204FC84300165762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF4B49204FC84300165762 /* main.m */; };
+		04EF4B52204FC86500165762 /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF4B51204FC86500165762 /* SecondView.m */; };
+		04EF4B54204FC88B00165762 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EF4B53204FC88A00165762 /* SecondView.xib */; };
+		04EF4B56204FC8C900165762 /* aec379310a55b31932bea15a4fa98226cffc175d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04EF4B55204FC8C900165762 /* aec379310a55b31932bea15a4fa98226cffc175d.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		04EF4B46204FC84300165762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04EF4B48204FC84300165762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04EF4B49204FC84300165762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EF4B50204FC86500165762 /* SecondView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		04EF4B51204FC86500165762 /* SecondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
+		04EF4B53204FC88A00165762 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		04EF4B55204FC8C900165762 /* aec379310a55b31932bea15a4fa98226cffc175d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aec379310a55b31932bea15a4fa98226cffc175d.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +74,10 @@
 				04EF4B45204FC84300165762 /* LaunchScreen.storyboard */,
 				04EF4B48204FC84300165762 /* Info.plist */,
 				04EF4B49204FC84300165762 /* main.m */,
+				04EF4B50204FC86500165762 /* SecondView.h */,
+				04EF4B51204FC86500165762 /* SecondView.m */,
+				04EF4B53204FC88A00165762 /* SecondView.xib */,
+				04EF4B55204FC8C900165762 /* aec379310a55b31932bea15a4fa98226cffc175d.jpg */,
 			);
 			path = "弹出全屏的自定义View";
 			sourceTree = "<group>";
@@ -130,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EF4B47204FC84300165762 /* LaunchScreen.storyboard in Resources */,
+				04EF4B56204FC8C900165762 /* aec379310a55b31932bea15a4fa98226cffc175d.jpg in Resources */,
 				04EF4B44204FC84300165762 /* Assets.xcassets in Resources */,
+				04EF4B54204FC88B00165762 /* SecondView.xib in Resources */,
 				04EF4B42204FC84300165762 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +157,7 @@
 			files = (
 				04EF4B3F204FC84300165762 /* ViewController.m in Sources */,
 				04EF4B4A204FC84300165762 /* main.m in Sources */,
+				04EF4B52204FC86500165762 /* SecondView.m in Sources */,
 				04EF4B3C204FC84300165762 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
